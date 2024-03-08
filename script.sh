@@ -1,7 +1,7 @@
 #!/bin/bash
 
-node_version="14"  # Wersja Node.js do użycia
-container_name="node_http_server"  # Nazwa kontenera
+node_version="14"
+container_name="node_http_server"
 
 if ! command -v docker &> /dev/null; then
     echo "Docker nie jest zainstalowany."
